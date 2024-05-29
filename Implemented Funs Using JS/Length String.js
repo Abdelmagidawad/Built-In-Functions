@@ -1,10 +1,23 @@
-/ Implemented Function Will Calculate length of String
+// Implemented Function Will Calculate length of String
 // s : The string
 
-function length(s) {
+//The First Way Using foreach
+function getStringLengthWay1(s) {
   let count = 0;
-  while (count < s.length) count++;
+  [...s].forEach((element) => {
+    count++;
+  });
   console.log(count);
 }
 
-length("Hello");
+//The Second Way Using while loop
+function getStringLengthWay2(s) {
+  let count = 0;
+  while (s[count] !== undefined) {
+    count++;
+  }
+  console.log(count);
+}
+
+getStringLengthWay1("Mody");
+getStringLengthWay2("Hello");

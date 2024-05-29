@@ -1,16 +1,12 @@
 // Implemented Function Will Repeat The String
-// s : The string that will be repeated
-// num :The number of repeating
+// value : The string that will be repeated
+// repeatNum :The number of repeating
 
-//
-function print() {
-  console.log("Hello");
-}
-print();
-function stringRepeat(s, num) {
+function stringRepeat(value, repeatNum) {
   let result = "";
-  while (num--) {
-    result += s + " ";
+  while (repeatNum--) {
+    if (repeatNum === 0) result += value;
+    else result += value + " ";
   }
   return result;
 }
