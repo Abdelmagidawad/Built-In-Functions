@@ -1,9 +1,6 @@
 #include<iostream>
-#include<string>
 #include<cmath>
-#include<iomanip>
 #include<algorithm>
-#include<stack>
 
 using namespace std;
 

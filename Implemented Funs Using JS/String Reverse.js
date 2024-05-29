@@ -2,7 +2,7 @@
 // s : The string that will be reversed
 
 //The First Way Using swap
-function stringReverseF(s) {
+function stringReverseWay1(s) {
   let array = s.split("");
 
   for (let i = 0; i < array.length / 2; i++) {
@@ -15,7 +15,7 @@ function stringReverseF(s) {
 }
 
 //The Second Way Using Empty String
-function stringReverseS(s) {
+function stringReverseWay2(s) {
   let reversString = "";
   for (let i = s.length - 1; i >= 0; i--) {
     reversString += s[i];
@@ -24,7 +24,7 @@ function stringReverseS(s) {
 }
 
 //The Thired Way Using Array
-function stringReverseD(s) {
+function stringReverseWay3(s) {
   let result = [];
   for (let i = 0; i < s.length; i++) {
     result.unshift(s[i]);
@@ -32,8 +32,8 @@ function stringReverseD(s) {
   console.log(result.join(""));
 }
 
-stringReverseF("Migo");
+stringReverseWay1("Migo");
 
-stringReverseS("Migo");
+stringReverseWay2("Migo");
 
-stringReverseD("Migo");
+stringReverseWay3("Migo");

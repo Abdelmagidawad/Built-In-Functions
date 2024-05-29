@@ -3,7 +3,7 @@
 
 //The First Way Using split method
 
-function convertStringToArrayF(s) {
+function convertStringToArrayWay1(s) {
   let array = s.split("");
   for (let i = 0; i < s.length; i++) {
     console.log(`${i + 1} -> ${array[i]}`);
@@ -11,7 +11,7 @@ function convertStringToArrayF(s) {
 }
 
 //The Thired Way
-function convertStringToArrayS(s) {
+function convertStringToArrayWay2(s) {
   let result = [];
   for (let i = 0; i < s.length; i++) {
     result.push(s[i]);
@@ -21,6 +21,6 @@ function convertStringToArrayS(s) {
   }
 }
 
-convertStringToArrayF("Abdelmagid");
+convertStringToArrayWay1("Abdelmagid");
 
-convertStringToArrayS("Migo");
+convertStringToArrayWay2("Migo");

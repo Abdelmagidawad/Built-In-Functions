@@ -1,20 +1,18 @@
 #include<iostream>
 #include<string>
-#include<cmath>
-#include<iomanip>
 #include<algorithm>
-#include<stack>
- 
+
 using namespace std;
 
 // Implemented Function Will Repeat The String
-// s : The string that will be repeated
-// num :The number of repeating
+// value : The string that will be repeated
+// repeatNum :The number of repeating
 
-string stringRepeat(string s ,int num){
+string stringRepeat(string value ,int repeatNum){
     string result;
-    while(num--){
-        result+=s+" ";
+    while(repeatNum--){
+        if(repeatNum==0) result+=value;
+        else result+=value+" ";
     }
     return result;
 }
