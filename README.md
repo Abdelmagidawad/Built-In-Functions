@@ -1,8 +1,8 @@
-# Custom Built-In Functions
+## Custom Built-In Functions
 
 This repository contains custom implementations of various built-in functions in JavaScript and C++. These implementations aim to mimic the functionality of standard built-in functions to help understand their inner workings and usage.
 
-## Implemented Functions
+### Implemented Functions
 
 1. **cleanString(str)**: Cleans the string by removing any digits and symbols.
 2. **inArray(arr, target)**: Checks if a target number exists in an array.
@@ -17,5 +17,5 @@ This repository contains custom implementations of various built-in functions in
 11. **stringToArray(str)**: Converts a string to an array of characters.
 
 
-##Contributing
+### Contributing
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
